@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d36b58dd-5a25-451f-bb8b-cf054ead326e" name="Default Changelist" comment="">
+    <list default="true" id="fa4db43a-3b74-4af0-8d85-52aceb44cb5c" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../eureka/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../eureka/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../eureka/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
@@ -12,11 +12,11 @@
       <change afterPath="$PROJECT_DIR$/../eureka/src/main/java/com/saran/eureka/EurekaApplication.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../eureka/src/main/resources/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../eureka/src/test/java/com/saran/eureka/EurekaApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pricing-service/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/udacity/vehicles/api/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/udacity/vehicles/api/CarController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/udacity/vehicles/service/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/udacity/vehicles/service/CarService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/udacity/vehicles/api/CarControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/udacity/vehicles/api/CarControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vehicles-api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../vehicles-api/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vehicles-api/src/main/java/com/udacity/vehicles/api/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vehicles-api/src/main/java/com/udacity/vehicles/api/CarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vehicles-api/src/main/java/com/udacity/vehicles/service/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vehicles-api/src/main/java/com/udacity/vehicles/service/CarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vehicles-api/src/test/java/com/udacity/vehicles/api/CarControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vehicles-api/src/test/java/com/udacity/vehicles/api/CarControllerTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,15 +24,24 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1TlucGmpfkDG1i6eQO9qTvduK0X" />
+  <component name="ProjectId" id="1TluZQKW2e4qqgXDqzjiJTiHMCD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -53,9 +62,9 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="VehiclesApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="vehicles-api" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.udacity.vehicles.VehiclesApiApplication" />
+    <configuration name="PricingServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pricing-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.udacity.pricing.PricingServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -66,13 +75,21 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d36b58dd-5a25-451f-bb8b-cf054ead326e" name="Default Changelist" comment="" />
-      <created>1574047080246</created>
+      <changelist id="fa4db43a-3b74-4af0-8d85-52aceb44cb5c" name="Default Changelist" comment="" />
+      <created>1574047057844</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1574047080246</updated>
-      <workItem from="1574047082934" duration="996000" />
+      <updated>1574047057844</updated>
+      <workItem from="1574047061705" duration="1298000" />
     </task>
+    <task id="LOCAL-00001" summary="pricing service to display the price detials of vehicle">
+      <created>1574050372626</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574050372626</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,5 +108,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="pricing service to display the price detials of vehicle" />
+    <option name="LAST_COMMIT_MESSAGE" value="pricing service to display the price detials of vehicle" />
   </component>
 </project>
